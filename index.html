@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Piano</title>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-200 flex justify-center items-center min-h-screen">
+
+<div class="relative">
+
+    <!-- White Keys -->
+    <div class="flex">
+        <div id="a" class="w-20 h-80 bg-white border-2 border-black flex items-end justify-center pb-2">A</div>
+        <div id="b" class="w-20 h-80 bg-white border-2 border-black flex items-end justify-center pb-2">B</div>
+        <div id="c" class="w-20 h-80 bg-white border-2 border-black flex items-end justify-center pb-2">C</div>
+        <div id="d" class="w-20 h-80 bg-white border-2 border-black flex items-end justify-center pb-2">D</div>
+        <div id="e" class="w-20 h-80 bg-white border-2 border-black flex items-end justify-center pb-2">E</div>
+        <div id="f" class="w-20 h-80 bg-white border-2 border-black flex items-end justify-center pb-2">F</div>
+        <div id="g" class="w-20 h-80 bg-white border-2 border-black flex items-end justify-center pb-2">G</div>
+        <div id="h" class="w-20 h-80 bg-white border-2 border-black flex items-end justify-center pb-2">H</div>
+    </div>
+
+    <!-- Black Keys -->
+    <div class="absolute top-0 left-0">
+
+        <div id="i"
+             class="absolute left-[50px] w-12 h-52 bg-black text-white flex items-end justify-center pb-2 rounded-b-md">
+            A#
+        </div>
+
+        <div id="j"
+             class="absolute left-[130px] w-12 h-52 bg-black text-white flex items-end justify-center pb-2 rounded-b-md">
+            B#
+        </div>
+
+        <div id="k"
+             class="absolute left-[290px] w-12 h-52 bg-black text-white flex items-end justify-center pb-2 rounded-b-md">
+            C#
+        </div>
+
+        <div id="l"
+             class="absolute left-[370px] w-12 h-52 bg-black text-white flex items-end justify-center pb-2 rounded-b-md">
+            D#
+        </div>
+
+        <div id="m"
+             class="absolute left-[530px] w-12 h-52 bg-black text-white flex items-end justify-center pb-2 rounded-b-md">
+            F#
+        </div>
+
+        <div id="n"
+             class="absolute left-[610px] w-12 h-52 bg-black text-white flex items-end justify-center pb-2 rounded-b-md">
+            G#
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
